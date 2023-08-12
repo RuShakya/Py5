@@ -15,3 +15,10 @@ if answer == "Central Processing Unit":
 else:
     print("Incorrect!")
 
+
+answer = input(" What does RAM stands for? ")
+if answer == "Random Access Memory":
+    print("Correct!")
+else:
+    print("Incorrect!")
+

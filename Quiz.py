@@ -1,3 +1,20 @@
+from qns_fetch import QnsFetch
+qnsObj = QnsFetch()     # custom object to get questions and answers
+
+
+# =-=-=-=-=-=-=-=-=-=-=-=-=- example of fecthing question =-=-=-=-=-=-=-=-=-=-= #
+question, answer = qnsObj.get_qns()     # function to get questions and answers
+# print("question: ", question)
+# print("answer  : ", answer)
+
+# question, answer = qnsObj.get_qns()
+# print("question: ", question)
+# print("answer  : ", answer)
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+
+
+
+
 print("Welcome to my Computer quiz")
 
 # Making a Quiz Game
